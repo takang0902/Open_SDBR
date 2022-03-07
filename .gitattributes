@@ -1,2 +1,9 @@
 # Auto detect text files and perform LF normalization
 * text=auto
+figure1_background_subtracted.mat filter=lfs diff=lfs merge=lfs -text
+figure1_Raw filter=lfs diff=lfs merge=lfs -text
+figure1_Raw.mat filter=lfs diff=lfs merge=lfs -text
+figure1_SDBR.mat filter=lfs diff=lfs merge=lfs -text
+figure2_SDBR.mat filter=lfs diff=lfs merge=lfs -text
+figure2_Raw.mat filter=lfs diff=lfs merge=lfs -text
+figure2_Background_subtracted.mat filter=lfs diff=lfs merge=lfs -text
